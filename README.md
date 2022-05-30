@@ -30,4 +30,4 @@ kasa --type plug --host "INSERT_IP_ADDRESS_OF_PLUG" off
 ```
 
 ## Deploy script as a linux service
-Finally, you need somewhere to deploy the script. I used my Raspberry Pi, but you can obviously use any server. I have deployed the script as a linux service. You can see [this link](https://websofttechs.com/tutorials/how-to-setup-python-script-autorun-in-ubuntu-18-04/) how it is done.
+Finally, you need somewhere to deploy the script. I used my Raspberry Pi, but you can obviously also use a server, if you have that. I have deployed the script as a linux service. You can see [this link](https://websofttechs.com/tutorials/how-to-setup-python-script-autorun-in-ubuntu-18-04/) how it can done.
