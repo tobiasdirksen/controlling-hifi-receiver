@@ -1,0 +1,13 @@
+[Unit]
+Description = Chromecast python service
+After = network.target
+Wants = network.target
+
+[Service]
+User = pi
+Type = simple
+Restart = always
+ExecStart = /usr/bin/python3 /home/pi/Documents/Scripts/chromecast.py
+
+[Install]
+WantedBy = multi-user.target
