@@ -15,7 +15,7 @@ The chromecast status can be read by the [`pychromecast` library](https://pypi.o
 ```python
 cast, browser = pychromecast.get_listed_chromecasts(friendly_names=CHROMECAST_NAME)
 ```
-where `CHROMECAST_NAME` is the name of the chromecast. If the chromecast is part of any groups, you can insert a list with both the chromecast name and the group names. The script supports this. The chromecast status is then obtained by 
+where `CHROMECAST_NAME` is the name of the chromecast. If the chromecast is part of any speaker group(s), you can insert a list with both the chromecast name and the speaker group name(s). The script supports this. The chromecast status is then obtained by 
 ```python
 cast.wait()
 status = cast.status
