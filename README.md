@@ -1,4 +1,4 @@
-# Turn receiver on when chromecast is connected to
+# Controlling hifi receiver
 With this python script you can control an audio receiver based on whether a connected chromecast audio is connected to or not. 
 
 ## Description
